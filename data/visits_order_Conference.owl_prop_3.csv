@@ -1,0 +1,5 @@
+nodeId,nodeName,nodeType,nodeLevel,loop,hop
+19,has_tracks,Property,-1,0,0
+0,has_parts,Property,-1,0,1
+39,reviews,Property,-1,1,0
+9,invites_co-reviewers,Property,-1,2,0

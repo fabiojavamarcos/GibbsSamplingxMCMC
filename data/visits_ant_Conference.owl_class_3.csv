@@ -1,0 +1,7 @@
+rootId,root,childId,child,incremental visits
+52,Regular_contribution,21,Written_contribution,1
+21,Written_contribution,41,Conference_contribution,1
+41,Conference_contribution,49,Conference_document,1
+56,Passive_conference_participant,26,Conference_participant,1
+26,Conference_participant,40,Person,1
+31,Conference_volume,47,Conference,1

@@ -1,0 +1,10 @@
+nodeId,nodeName,nodeType,nodeLevel,loop,hop
+52,Regular_contribution,Class,-1,0,0
+21,Written_contribution,Class,-1,0,1
+41,Conference_contribution,Class,-1,0,2
+49,Conference_document,Class,-1,0,3
+56,Passive_conference_participant,Class,-1,1,0
+26,Conference_participant,Class,-1,1,1
+40,Person,Class,-1,1,2
+31,Conference_volume,Class,-1,2,0
+47,Conference,Class,-1,2,1

@@ -1,0 +1,15 @@
+rootId,root,childId,child,incremental visits
+5,Accepted_contribution,24,Reviewed_contribution,1
+24,Reviewed_contribution,11,Submitted_contribution,1
+11,Submitted_contribution,21,Written_contribution,1
+21,Written_contribution,41,Conference_contribution,1
+41,Conference_contribution,49,Conference_document,1
+56,Passive_conference_participant,26,Conference_participant,1
+26,Conference_participant,40,Person,1
+37,Paid_applicant,19,Registeered_applicant,1
+19,Registeered_applicant,18,Conference_applicant,1
+18,Conference_applicant,40,Person,2
+42,Poster,41,Conference_contribution,2
+41,Conference_contribution,49,Conference_document,2
+2,Active_conference_participant,34,Conference_contributor,1
+34,Conference_contributor,40,Person,3

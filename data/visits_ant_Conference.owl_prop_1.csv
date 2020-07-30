@@ -1,0 +1,14 @@
+rootId,root,childId,child,incremental visits
+2,was_a_committee_chair_of,40,was_a_member_of,1
+3,was_a_program_committee_of,38,was_a_committee_of,1
+10,has_tutorials,0,has_parts,2
+12,has_an_organizing_committee,32,has_a_commtitee,1
+14,has_a_steering_committee,32,has_a_commtitee,2
+15,has_a_committee_chair,29,has_members,1
+17,has_workshops,0,has_parts,3
+19,has_tracks,0,has_parts,4
+20,was_a_steering_committee_of,38,was_a_committee_of,2
+23,has_a_program_committee,32,has_a_commtitee,3
+27,has_a_committee_co-chair,29,has_members,2
+31,was_a_committe_co-chair_of,40,was_a_member_of,2
+34,was_an_organizing_committee_of,38,was_a_committee_of,3
