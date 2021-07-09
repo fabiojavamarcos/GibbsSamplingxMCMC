@@ -19,7 +19,8 @@ suppressPackageStartupMessages(
   library(rstan,quietly=TRUE, warn.conflicts = FALSE, verbose = FALSE))
 #data(prostate, package="faraway") 
 options(mc.cores = parallel::detectCores()) 
-rstan_options(auto_write = TRUE) set.seed(8675309)
+rstan_options(auto_write = TRUE) 
+set.seed(8675309)
 
 
 #n <- length(visits.df$visits) 
@@ -36,13 +37,13 @@ summary(visits_p.lm)
 
 #class
 X <- model.matrix(visits_p.lm) 
-y <- visits_c.lm$model[,1]
+y <- visits_p.lm$model[,1]
 n <- nrow(X)
 p <- ncol(X)
 
 XtX<- t(X) %*% X
-bhat<- coef(visits.lm) 
-ybar<- mean(visits.df$visits) 
+bhat<- coef(visits_p.lm) 
+ybar<- mean(visits_prop.df$visits) 
 nu0 <- ybar
 yhat<- X %*%bhat 
 epshat<-y-yhat 
@@ -98,7 +99,7 @@ beta3 <- beta_all[[3]]
 
 par(mfrow=c(2, 3),mar = rep(2, 4))
 for(j in 1:2){
-  plot(1:M, beta1[j,-1], type="l", xlab="", ylab="", main = colnames(visits.df)[j])
+  plot(1:M, beta1[j,-1], type="l", xlab="", ylab="", main = colnames(visits_class.df)[j])
   lines(1:M, beta2[j,-1], col = 2, lty = 2)
   lines(1:M, beta3[j,-1], col = 4, lty = 2)
   legend('topleft', legend = expression(paste(beta[j], " | y")), bty = 'n')

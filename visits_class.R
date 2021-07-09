@@ -2,9 +2,9 @@
 #visits_ant_prop.df <- read.csv('./data/visits_ant_Conference.owl_prop_3.csv')
 #visits_order_prop.df <- read.csv('./data/visits_order_Conference.owl_prop_3.csv')
 
-visits_class.df <- read.csv('./data/visits_Conference.owl_class_500.csv')
-visits_ant_class.df <- read.csv('./data/visits_ant_Conference.owl_class_500.csv')
-visits_order_class.df <- read.csv('./data/visits_order_Conference.owl_class_500.csv')
+visits_class.df <- read.csv('./data/visits_Conference.owl_class_100.csv')
+visits_ant_class.df <- read.csv('./data/visits_ant_Conference.owl_class_100.csv')
+visits_order_class.df <- read.csv('./data/visits_order_Conference.owl_class_100.csv')
 
 head(visits_class.df)
 head(visits_ant_class.df)
